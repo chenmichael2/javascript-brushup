@@ -1,1 +1,2 @@
-console.log("script is working in main.js")
+console.log("script is working in main.js");
+
