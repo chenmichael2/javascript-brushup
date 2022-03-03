@@ -1,3 +1,3 @@
 console.log("script is working in main.js");
 
-const orderedList = 
+const orderedList = document.querySelector("ol");
