@@ -1,2 +1,3 @@
 console.log("script is working in main.js");
 
+let
