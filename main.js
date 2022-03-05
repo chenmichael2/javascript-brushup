@@ -1,6 +1,6 @@
 console.log("script is working in main.js");
 
-let orderedList = document.querySelector("h1");
+let orderedList = document.querySelector('h1');
 console.log(orderedList);
 orderedList.createElement("li");
 
