@@ -1,5 +1,5 @@
 console.log("script is working in main.js");
 
 const orderedList = document.querySelector("ol");
-const oL = orderedList.getElementsByClassName("ordered-list");
+orderedList.append("Hello World")
 console.log(oL);
