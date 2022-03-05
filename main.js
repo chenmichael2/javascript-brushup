@@ -1,4 +1,4 @@
 console.log("script is working in main.js");
 
-const orderedList = document.querySelector.getElementByClass("ordered-list");
+const orderedList = document.querySelector("ol");
 console.log(orderedList);
