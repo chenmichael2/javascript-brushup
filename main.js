@@ -6,6 +6,10 @@ let createListItem = document.createElement("li");
 orderedList.appendChild(createListItem);
 orderedList.appendChild(createListItem);
 
+function click() {
+    orderedList.appendChild(createListItem);
+}
+
 // const div = document.createElement("div");
 // div.innerText = "Hello World";
 // document.body.append(div);
