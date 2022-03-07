@@ -4,7 +4,7 @@ let orderedList = document.querySelector('ol');
 console.log(orderedList);
 let createListItem = document.createElement("li");
 let containText = createListItem.textContent("hello");
-orderedList.appendChild(createListItem);
+orderedList.appendChild(createListItem).textContent = "Hello"
 
 
 // const div = document.createElement("div");
