@@ -9,5 +9,5 @@ orderedList.appendChild(createListItem);
 
 clickButton.onclick = () => {
     console.log("hello");
-    orderedList.appendChild(createListItem);
+    console.log(orderedList);
 }
