@@ -1,4 +1,5 @@
 console.log("script is working in main.js");
+let clickButton = document.querySelector("button");
 
 let orderedList = document.querySelector('ol');
 let createListItem = document.createElement("li");
@@ -6,8 +7,8 @@ let createListItem = document.createElement("li");
 orderedList.appendChild(createListItem);
 orderedList.appendChild(createListItem);
 
-function click() {
-    orderedList.appendChild(createListItem);
+clickButton.onclick = () => {
+    console.log("hello");
 }
 
 // const div = document.createElement("div");
