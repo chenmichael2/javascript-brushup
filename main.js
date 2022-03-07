@@ -1,4 +1,4 @@
-
+console.log("script is working in main.js");
 let clickButton = document.querySelector("button");
 let orderedList = document.querySelector('ol');
 let createListItem = document.createElement("li");
