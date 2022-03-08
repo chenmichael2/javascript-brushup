@@ -7,9 +7,14 @@ let inputField = document.getElementsByClassName('input-field');
 
 console.log(orderedList);
 
-clickButton.onclick = () => {
+clickButton.addEventListener("click", (e) => {
+    preventDefault();
     console.log("hello");
     let value = inputField.value;
     console.log(value);
+})
+// clickButton.onclick = () => {
+//     preventDefault();
     
-}
+    
+// }
