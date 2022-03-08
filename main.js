@@ -3,7 +3,7 @@ let clickButton = document.querySelector("button");
 let orderedList = document.getElementsByClassName('ordered-list');
 let createListItem = document.createElement("li");
 // let containText = createListItem.textContent = "hello";
-let inputField = document
+let inputField = document.getElementsByClassName('input-field')
 
 console.log(orderedList);
 
