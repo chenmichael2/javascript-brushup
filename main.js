@@ -9,5 +9,7 @@ console.log(orderedList);
 
 clickButton.onclick = () => {
     console.log("hello");
+    let value = inputField.value;
+    console.log(value);
     
 }
