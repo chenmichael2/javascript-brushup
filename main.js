@@ -4,6 +4,8 @@ let orderedList = document.getElementsByClassName('ordered-list');
 let createListItem = document.createElement("li");
 let containText = createListItem.textContent = "hello";
 
+console.log(orderedList);
+
 orderedList.appendChild(createListItem);
 
 console.log(orderedList);
