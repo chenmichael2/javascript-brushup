@@ -6,8 +6,6 @@ let containText = createListItem.textContent = "hello";
 
 console.log(orderedList);
 
-// orderedList.appendChild(createListItem);
-
 clickButton.onclick = () => {
     console.log("hello");
     // orderedList.appendChild(createListItem);
