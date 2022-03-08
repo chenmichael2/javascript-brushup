@@ -9,7 +9,7 @@ console.log(orderedList);
 
 clickButton.addEventListener("click", (e) => {
     e.preventDefault();
-    console.log("hello");
+    console.log("this button works");
     let value = inputField.value; // still cant read the input
     console.log(value);
 })
