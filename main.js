@@ -6,10 +6,9 @@ let containText = createListItem.textContent = "hello";
 
 console.log(orderedList);
 
-orderedList.appendChild(createListItem);
+// orderedList.appendChild(createListItem);
 
-console.log(orderedList);
 clickButton.onclick = () => {
     console.log("hello");
-    orderedList.appendChild(createListItem);
+    // orderedList.appendChild(createListItem);
 }
