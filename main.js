@@ -6,7 +6,7 @@ let createListItem = document.createElement("li");
 let inputField = document.getElementsByClassName('input-field');
 
 console.log(orderedList);
-console.log(inputField.value);
+console.log(inputField.value); // this
 
 clickButton.addEventListener("click", (e) => {
     e.preventDefault();
