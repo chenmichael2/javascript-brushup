@@ -10,7 +10,7 @@ console.log(orderedList);
 clickButton.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("hello");
-    let value = inputField.value;
+    let value = inputField.value; // still cant read the input
     console.log(value);
 })
 
