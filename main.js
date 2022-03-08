@@ -8,13 +8,9 @@ let inputField = document.getElementsByClassName('input-field');
 console.log(orderedList);
 
 clickButton.addEventListener("click", (e) => {
-    preventDefault();
+    e.preventDefault();
     console.log("hello");
     let value = inputField.value;
     console.log(value);
 })
-// clickButton.onclick = () => {
-//     preventDefault();
-    
-    
-// }
+
