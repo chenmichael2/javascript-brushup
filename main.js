@@ -12,7 +12,7 @@ clickButton.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("this button works");
     console.log(inputField);
-    let value = inputField.value; // still cant rea
+    let value = inputField.value; // still cant 
     console.log(value);
 })
 
