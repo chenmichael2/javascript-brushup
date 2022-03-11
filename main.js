@@ -3,7 +3,6 @@ let clickButton = document.querySelector("button");
 let orderedList = document.getElementById('ordered-list');
 let inputField = document.getElementById('input-field');
 
-
 clickButton.addEventListener("click", (e) => {
     e.preventDefault();
     console.log("this button works");
