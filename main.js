@@ -2,7 +2,6 @@ console.log("script is working in main.js");
 let clickButton = document.querySelector("button");
 let orderedList = document.getElementById('ordered-list');
 
-// let containText = createListItem.textContent = "hello";
 let inputField = document.getElementById('input-field');
 
 // console.log(orderedList);
