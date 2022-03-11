@@ -15,5 +15,6 @@ clickButton.addEventListener("click", (e) => {
     console.log(inputField);
     let value = inputField.value;
     console.log(value);
+    
 })
 
