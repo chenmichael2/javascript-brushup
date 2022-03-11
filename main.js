@@ -1,8 +1,8 @@
 console.log("script is working in main.js");
 let clickButton = document.querySelector("button");
 // let orderedList = document.getElementsByClassName('ordered-list');
-let orderedList = document.getElementById('ordered-list');
-let createListItem = document.createElement("li");
+
+
 // let containText = createListItem.textContent = "hello";
 let inputField = document.getElementById('input-field');
 
@@ -15,6 +15,7 @@ clickButton.addEventListener("click", (e) => {
     console.log(inputField);
     let value = inputField.value;
     console.log(value);
-    
+    let orderedList = document.getElementById('ordered-list');
+    let createListItem = document.createElement("li");
 })
 
