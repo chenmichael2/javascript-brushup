@@ -19,6 +19,5 @@ clickButton.addEventListener("click", (e) => {
     let createListItem = document.createElement("li");
     console.log(orderedList);
     orderedList.appendChild(createListItem).textContent = value;
-    
 })
 
