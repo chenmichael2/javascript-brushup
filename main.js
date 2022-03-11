@@ -6,7 +6,7 @@ let orderedList = document.getElementById('ordered-list');
 // let containText = createListItem.textContent = "hello";
 let inputField = document.getElementById('input-field');
 
-
+// console.log(orderedList);
 console.log(inputField.value);
 
 clickButton.addEventListener("click", (e) => {
