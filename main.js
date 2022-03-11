@@ -17,6 +17,6 @@ clickButton.addEventListener("click", (e) => {
     console.log(value);
     let orderedList = document.getElementById('ordered-list');
     let createListItem = document.createElement("li");
-    console.log(orderedList)
+    console.log(orderedList);
 })
 
